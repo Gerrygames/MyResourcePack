@@ -47,7 +47,7 @@ public class ResourceConfigurationTreeView extends ContainerObjectSelectionList<
             entry.addEntry(toAdd);
     }
 
-    @Override
+    /*@Override
     protected void renderList(GuiGraphics guiGraphics, int i, int j, float f) {
         int k = this.getRowLeft();
         int l = this.getRowWidth();
@@ -60,7 +60,7 @@ public class ResourceConfigurationTreeView extends ContainerObjectSelectionList<
                 this.renderItem(guiGraphics, i, j, f, o, k, p, l, m);
             }
         }
-    }
+    }*/
 
     @Override
     protected int getRowTop(int i) {

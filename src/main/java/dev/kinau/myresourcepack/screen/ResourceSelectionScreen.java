@@ -155,10 +155,10 @@ public class ResourceSelectionScreen extends Screen {
         this.tabManager.setTabArea(screenRectangle);
     }
 
-    @Override
+    /*@Override
     public void renderBackground(GuiGraphics guiGraphics, int i, int j, float f) {
         this.renderDirtBackground(guiGraphics);
-    }
+    }*/
 
     @Override
     public boolean keyPressed(int i, int j, int k) {
